@@ -12,4 +12,4 @@ Existem várias razões para se ordenar uma sequência. Uma delas é a possibili
 </p>
 
 <h3>Licença</h3>
-<p align="justif">Todos os softwares armazenados neste repósitorio são licenciado com a licença <a href="https://github.com/WalderlanSena/algoritmosDeOrdenacao/blob/master/LICENSE">MIT License</a></p>
+<p align="justif">Todos os softwares armazenados neste repósitorio são de código aberto licenciado sob a licençaa <a href="https://github.com/WalderlanSena/algoritmosDeOrdenacao/blob/master/LICENSE">MIT License</a></p>
