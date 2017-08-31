@@ -43,22 +43,19 @@ int main(int argc, char *argv[]) {
  */
 void selectionSort(int vetor[], int tam)
 {
-    int i,           //Variavel responsável por realizar iteraçẽos no laço for
-        j,           //Variavel responsável por realizar iteraçẽos no laço for
-        valorMenor,  //Variavel que receberá valor valorMenororario de um vetor respectivo
+    int valorMenor,  //Variavel que receberá valor valorMenororario de um vetor respectivo
         aux;         //Variavel que sempre recebe o menor valor existe no array
 
-    for (i = 0; i < (tam - 1); i++) {
+    for (int i = 0; i < (tam - 1); i++) {       //For que percorre o array mais +1
 
         aux = i;                                //Armazena o valor de i atual no laço
 
-        for (j = (i + i); j < tam; j++) {
-            if (vetor[aux] > vetor[j]) aux = j;
+        for (int j = (i + 1); j < tam; j++) {
+            if (vetor[aux] > vetor[j]) aux = j; //Verifica se o vetor atual e maior que o posterior
         }//end for 2
 
         // Realizando a substitução de valores
         valorMenor = vetor[aux];    //valorMenor recebe o valor menor encontado
-
         /**
          *  Realiza a substituição dos valores do menor para o maior
          */
