@@ -1,5 +1,5 @@
 /**
- *  Algoritmo de Ordennação e Pesquisa em c++
+ *  Algoritmo de Ordenação e Pesquisa em c++
  *  @version:1.0.0
  *  Modo de Ordenação Selection Sort lendo valores inteiros de um arquivo e ordenando
  *  @author: Walderlan Sena <eu@walderlan.xyz>

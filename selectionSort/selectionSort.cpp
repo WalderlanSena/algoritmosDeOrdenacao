@@ -1,5 +1,5 @@
 /**
- *  Algoritmo de Ordennação e Pesquisa em c++
+ *  Algoritmo de Ordenação e Pesquisa em c++
  *  @version:1.0.0
  *  Modo de Ordenação Selection Sort
  *  @author: Walderlan Sena <eu@walderlan.xyz>
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 
     selectionSort(vet, 8);              //Chamando a função de ordenação
 
-    return 0;                           //Retorna 0 para o sistema operacional
+    return 0;                           //Retorna 0
 }//end main
 /**
  *  Função que realiza a ordenação pelo método de selectionSort
